@@ -1,0 +1,39 @@
+.header{
+  background-color: #808000;
+  width:100%;
+  height:auto;
+  float:left;
+  padding-top:10px;
+  padding-botton:10px;
+}
+
+.navbar{
+  background-color: #363636;
+  width:100%;
+  height:auto;
+  float:left;
+}
+
+
+.content2{
+  background-color: #F5F5F5;
+  width:100%;
+  height:auto;
+  float:left;
+}
+
+.footer{
+  background-color: #363636;
+  width:100%;
+  height:50px;
+  float:left;
+}
+
+@media only screen and (max-width:500px) {
+  .header, .navbar, .content, .content2, .footer {
+    width: 100%;
+  }
+}
+
+
+
